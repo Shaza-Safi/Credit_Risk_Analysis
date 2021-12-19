@@ -14,10 +14,15 @@ Fastlending is a peer-to-peer lending services company wants to use machine lear
 ### Analysis Process: 
 
 I will be using the credit card credit dataset from LendingClub for this analysis. I will need to dot he following:
+
 1-	Oversample the data using the RandomOverSampler and SMOTE algorithms, 
+
 2-	Undersample the data using the ClusterCentroids algorithm.
+
 3-	Then, use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. 
+
 4-	Next, I’ll compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. 
+
 5-	Once done, I’ll evaluate the performance of these models and make a written recommendation on whether they should be used to predict credit risk.
 
 ## Results:
