@@ -26,16 +26,24 @@ I will be using the credit card credit dataset from LendingClub for this analysi
 #### Naive Random OverSampler
 Balanced Accuracy score: 0.64
 
+![Naive_Random_Oversampling](https://user-images.githubusercontent.com/88908758/146676168-aebe09c5-aee5-46e2-9955-3718ec40d199.PNG)
 
 #### SMOTE
 Balanced Accuracy score: 0.63
 
+![SMOTE_Oversampling](https://user-images.githubusercontent.com/88908758/146676179-920d0804-0ebc-47fb-b5ee-82e80ed3f035.PNG)
+
 ### Undersample:
 #### ClusterCentroids
 Balanced Accuracy score: 0.51
+
+![Undersampling](https://user-images.githubusercontent.com/88908758/146676194-da457f48-9f11-414b-8b10-4f1a6849b673.PNG)
+
 ### Combination of Oversample and undersample approach:
 #### SMOTEENN
 Balanced Accuracy score: 0.65
+
+![combination](https://user-images.githubusercontent.com/88908758/146676205-625eff7c-fcd1-4bd7-a5a0-23090daf2982.PNG)
 
 ## Summary:
 Balanced accuracy uses sensitivity and specificity to evaluate the performance of a classifier. The balanced accuracy is placed on a scale of 0 to 1. The closer to 1 the balanced accurracy is, the better the prediction of the model. For the credit card risk data set, all of the classifiers tested showed similar recall scores, and all had precision scores as low for high-risk loans and high for low-risk loans. The difference in these machine learning models occurs in the balanced accuracy score. The Easy Ensemble Classifier outperformed all off the other models significantly with a score of 0.93. Seeing as none of the other machine learning models had balanced accuracy scores above 0.78, the Easy Ensemble Classifier is the best choice when analyzing and predicting credit card risk.
